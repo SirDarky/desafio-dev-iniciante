@@ -36,7 +36,7 @@ Após o download de todas as dependências que necessitamos iniciar a aplicaçã
 npm run dev
 ```
 
-### Obs: É necessario no back-end um arquivo ".env" para a executação de alguns comandos: Envio de e-mail, criação de senhas criptografadas e verificação do JWT. Não deixei no arquivo, pois contém informações confidenciais.
+### Obs: É necessario no back-end um arquivo ".env" para a executação de alguns comandos: Criação de senhas criptografadas e verificação do JWT. Não deixei no arquivo, pois contém informações confidenciais.
 
 ### Obs2: Caso queira criar um arquivo .env para executar com precisão, é necessário ter nesse arquivo essas informações:
 
@@ -48,6 +48,8 @@ PASSWORD='desafio_tech'
 PORT=3005
 ```
 A assinatura e assinaturasenha são importante para a criação e verificação do JWT, ambas não devem ser alteradas de nenhuma forma.
+
+### Obs: É importante alterar as contantes na pasta ./front-end/src/services/constantes.jsx
 
 ## ⚙️ Executando os testes
 
